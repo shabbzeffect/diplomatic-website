@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables
+.env.local
+.env.*.local
+.env.local.development
+.env.local.test
+.env.production
+.env.development.local
+.env.test.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+*.tslock
+
+# Next.js .cache
+*.cache
+.next/cache/
+
+# Docker
+.dockerignore
+
+# Payload CMS
+payload/

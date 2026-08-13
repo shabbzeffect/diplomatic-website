@@ -1,0 +1,15 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom variables for the Diplomatic brand */
+:root {
+  --diplomatic-navy: #0f172a;
+  --diplomatic-charcoal: #1e293b;
+  --diplomatic-black: #000000;
+  --diplomatic-gold: #d4af37;
+  --diplometric-steel-blue: #3b82f6;
+  --diplomatic-gray: #64748b;
+  --diplomatic-light: #f8fafc;
+}
