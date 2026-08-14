@@ -5,8 +5,7 @@ import { Inter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp, FaPhone, FaMapPin, FaEnvelope } from "react-icons/fa";
-import { FaSearch, FaShieldAlt, FaHeart, FaTruck, FaFileInvoiceDollar } from "react-icons/fa";
-import { Loader3, Loader2, Loader1, Loader4, Loader5 } from "react-icons/loader";
+import { FaSearch, FaShieldAlt, FaHeart, FaTruck, FaFileInvoiceDollar, FaHome } from "react-icons/fa";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
@@ -52,12 +51,8 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-diplomatic-navy to-diplomatic-charcoal min-h-[70vh] flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0">
-          <Loader1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-64 w-64 opacity-20" />
-          <Loader2 className="absolute top-1/3 right-1/4 -translate-x-1/2 -translate-y-1/2 h-32 w-32 opacity-10 rotate-6" />
-          <Loader3 className="absolute bottom-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 h-32 w-32 opacity-10 rotate-12" />
-          <Loader4 className="absolute bottom-1/3 right-1/3 -translate-x-1/2 -translate-y-1/2 h-32 w-32 opacity-10 rotate-18" />
-          <Loader5 className="absolute top-1/3 left-1/3 -translate-x-1/2 -translate-y-1/2 h-32 w-32 opacity-10 rotate-24" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="text-white/20 text-4xl">Loading...</span>
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 text-center">
@@ -75,7 +70,7 @@ export default function HomePage() {
               variant="default"
               className="py-3 px-6 text-lg font-medium"
             >
-              <Loader1 className="mr-2" /> Explore Safes
+              Explore Safes
             </Button>
             <Button
               asChild

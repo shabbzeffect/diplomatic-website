@@ -1,5 +1,4 @@
 /** @type {import('next').MetaData} */
-import "./globals.css";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";

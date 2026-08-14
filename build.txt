@@ -1,0 +1,44 @@
+﻿Γ£ô Lockfile passes supply-chain policies (verified 9m ago)
+Progress: resolved 1, reused 0, downloaded 0, added 0
+[WARN] deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+[WARN] deprecated next@15.0.3: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
+Progress: resolved 61, reused 16, downloaded 0, added 0
+Progress: resolved 94, reused 41, downloaded 0, added 0
+Progress: resolved 224, reused 113, downloaded 0, added 0
+Progress: resolved 290, reused 182, downloaded 0, added 0
+Progress: resolved 406, reused 359, downloaded 0, added 0
+[WARN] 5 deprecated subdependencies found: @humanwhocodes/config-array@0.13.0, @humanwhocodes/object-schema@2.0.3, glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Packages: +8 -7
+++++++++-------
+Progress: resolved 407, reused 360, downloaded 0, added 7
+Progress: resolved 407, reused 360, downloaded 0, added 8
+Progress: resolved 407, reused 360, downloaded 0, added 8, done
+
+dependencies:
+- react 19.0.0
++ react 18.2.0 (19.2.8 is available)
+- react-dom 19.0.0
++ react-dom 18.2.0 (19.2.8 is available)
+
+devDependencies:
+- @types/react 19.2.18
++ @types/react 18.3.31 (19.2.18 is available)
+- @types/react-dom 19.2.4
++ @types/react-dom 18.3.7 (19.2.4 is available)
+
+[ERR_PNPM_IGNORED_BUILDS] Ignored build scripts: sharp@0.33.5, unrs-resolver@1.12.2
+
+Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.
+[ERROR] Command failed with exit code 1: pnpm install
+
+pnpm: Command failed with exit code 1: pnpm install
+    at getFinalError (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:88983:14)
+    at makeError (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:91290:21)
+    at getSyncResult (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:93134:10)
+    at spawnSubprocessSync (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:93094:14)
+    at execaCoreSync (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:93024:23)
+    at callBoundExeca (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:95552:23)
+    at boundExeca (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:95529:49)
+    at sync2 (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:95684:14)
+    at runPnpmCli (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:252072:5)
+    at runDepsStatusCheck (file:///C:/Users/Shabir/AppData/Local/node/corepack/v1/pnpm/11.18.0/dist/pnpm.mjs:253836:7)
